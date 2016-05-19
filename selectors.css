@@ -1,0 +1,51 @@
+header {
+  border: 1px solid;
+}
+
+header ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.disabled {
+  color: grey;
+}
+
+a .disabled {
+  color:fuchsia;
+}
+
+.active {
+  color:yellow;
+}
+
+.red {
+  color:red;
+}
+
+.blue {
+  color:blue;
+}
+
+.bgred {
+  background-color:red;
+}
+
+.bgblue {
+  background-color: blue;
+}
+
+.grandparent > h4 {
+  border: 1px solid black;
+  border-radius: 25%;
+}
+
+.promo {
+  color:gold;
+  font-weight: bold;
+}
+
+input {
+  height:25px;
+}
